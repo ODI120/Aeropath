@@ -1,0 +1,61 @@
+*{
+    list-style: 0;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    box-sizing: border-box;
+}
+:root{
+    --color-background:#f2f8fc;
+    --color-blue:#008DD2;
+    --color-white:#fff;
+    --color-black:#212121;
+    --color-text:#333;
+    --color-yellow:#F5A80A;
+    --color-outline:#5F63688C;
+}
+.explore_section_1{
+    height: auto;
+}
+.explore_main{
+    display: flex;
+    padding: 48px;
+    background-color: var(--color-white);
+    border-radius: 16px;
+    gap: 5%;
+
+
+}
+/* .vintage_aircraft_1{
+    width: 200px;
+    height: 200px;
+} */
+.explore_history{
+    width: 65%;
+}
+.explore_vintage{
+    width: 30%;
+    padding: 32px;
+    background-color: var(--color-background);
+    border-radius: 8px;
+}
+.vintage_aircraft{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.explore_vintage a{
+    text-decoration: none;
+    color: var(--color-blue);
+}
+div{
+    margin-bottom: 10px
+}
