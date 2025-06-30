@@ -5,8 +5,8 @@
     flex-wrap: wrap;
 }
 :root{
-    --color-background:#f2f8fc;
-    --color-blue:#008DD2;
+    --color-background:#f0f0f0;
+    --color-blue:#016ccf;
     --color-white:#fff;
     --color-black:#212121;
     --color-text:#333;
@@ -35,14 +35,14 @@
     /* width: 350px; */
     height: 350px;
     text-align: center;
-    background-color: var(--color-yellow);
+    background-color: var(--color-background);
     padding: 24px;
     flex: 1 0 0;
     border-radius: 24px;
     transition: all 0.3s ease;
 }
 .explore_aviation_card:hover{
-    background-color: var(--color-yellow);
+    background-color: var(--color-blue);
     color: var(--color-white);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 10);
 }
