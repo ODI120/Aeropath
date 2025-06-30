@@ -4,13 +4,6 @@
     padding: 0;
     flex-wrap: wrap;
 }
-img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    height: auto;
-    box-sizing: border-box;
-}
 :root{
     --color-background:#f2f8fc;
     --color-blue:#008DD2;
@@ -20,42 +13,90 @@ img{
     --color-yellow:#F5A80A;
     --color-outline:#5F63688C;
 }
-.explore_section_1{
+.explore_section{
     height: auto;
 }
-.explore_main{
-    display: flex;
-    padding: 48px;
-    background-color: var(--color-white);
-    border-radius: 16px;
-    gap: 5%;
-
-
-}
-/* .vintage_aircraft_1{
-    width: 200px;
-    height: 200px;
-} */
-.explore_history{
-    width: 65%;
-}
-.explore_vintage{
-    width: 30%;
-    padding: 32px;
-    background-color: var(--color-background);
-    border-radius: 8px;
-}
-.vintage_aircraft{
+.explore_heading{
+    position: relative;
     width: 100%;
-    height: auto;
-    border-radius: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    height: 320px;
+    background-image: url(../image/Aircraft_takeoff.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    padding-top: 90px;
+    border-radius: 5px;
 }
-.explore_vintage a{
+.explore_aviation_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 350px; */
+    height: 350px;
+    text-align: center;
+    background-color: var(--color-yellow);
+    padding: 24px;
+    flex: 1 0 0;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+}
+.explore_aviation_card:hover{
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 10);
+}
+.explore_card{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.explore_card_2{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+.expl{
+    font-weight: bold;
+}
+.heading{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+.heading::before, .heading::after{
+    content: '''';
+    flex: 1;
+    height: 1px;
+    background: #333;
+}
+.explore_title{
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 40px;
+}
+.explore_aviation_card i{
+    font-size: 100px;
+}
+.explore_page{
+    background-color: var(--color-white);
+    padding: 30px;
+    border-radius: 10px;
+}
+.explore{
+    font-style: italic;
+    font-size: xx-large;
+}
+.explore_card a{
     text-decoration: none;
-    color: var(--color-blue);
-}
-div{
-    margin-bottom: 10px
+    color: var(--color-black);
 }
