@@ -77,6 +77,9 @@ body{
     background-color:var(--color-background) !important;
     font-family: 'Roboto', sans-serif !important;
 }
+span{
+    color: var(--color-blue);
+}
 
 /* ======nav bar====== */
 
@@ -230,4 +233,125 @@ nav ul{
     .footer-section .container .row > div {
         margin-bottom: 20px;
     }
+}
+
+
+/* ============EXPLORE SECTION =================== */
+
+.explore{
+    display: inline-flex;
+    align-items: center;
+    gap: 69px;
+}
+.explore-txt{
+    display: flex;
+    /* width: 499px; */
+   
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+.txt h1{
+    color: var(--color-black);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 132%; /* 52.8px */
+}
+
+.txt-img{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    align-self: stretch;
+}
+.txt-img img{
+    display: flex;
+    width: 160px;
+    height: 122px;
+    padding: 0px 1.107px 0px 0.107px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+.prop-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    align-self: stretch;
+}
+.txt-img .prop{
+    height: 122px;
+    width: 322px;
+    display: flex;
+    padding: 0px 11px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 10px;
+    background: var(--color-blue);
+}
+.txt-img .prop h4{
+    width: 217px;
+    color: var(--white, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131%; /* 35.37px */
+}
+.txt-img .prop img{
+    width: 83px;
+    height: 122px;
+    aspect-ratio: 83/122;
+}
+
+/* ------------ */
+.explore-card{
+   display: flex;
+    align-items: center;
+    gap: 21px;
+
+}
+.explore-card .card{
+    display: flex;
+    width: 344px;
+    height: 452px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 19px;
+    border-radius: 10px;
+}
+.explore-card .card:nth-child(1){
+    background: url(../image/Vintage\ Aircraft\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+.explore-card .card:nth-child(2){
+    background: url(../image/AME.png);
+    background-size: cover;
+    background-position: center; 
+}
+.explore-card .card .description{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.84);
+
+    /* inner */
+    box-shadow: 0px 0px 11.9px 0px rgba(255, 255, 255, 0.84) inset;
 }
