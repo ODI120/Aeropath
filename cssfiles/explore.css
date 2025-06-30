@@ -32,11 +32,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 350px; */
-    height: 350px;
+    width: 310px;
+    height: 310px;
     text-align: center;
     background-color: var(--color-background);
-    padding: 24px;
     flex: 1 0 0;
     border-radius: 24px;
     transition: all 0.3s ease;
@@ -49,14 +48,14 @@
 .explore_card{
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
 }
 .explore_card_2{
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 35px;
@@ -85,7 +84,8 @@
     font-size: 40px;
 }
 .explore_aviation_card i{
-    font-size: 100px;
+    font-size: 80px;
+    /* color: var(--color-blue); */
 }
 .explore_page{
     background-color: var(--color-white);
@@ -97,6 +97,10 @@
     font-size: xx-large;
 }
 .explore_card a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+.explore_card_2 a{
     text-decoration: none;
     color: var(--color-black);
 }
