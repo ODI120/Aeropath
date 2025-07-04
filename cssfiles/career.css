@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.career_1{
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+    background-image: url(../plane.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    
+
+
+}
+.career_container{
+    display: grid;
+    grid-template-columns:repeat(3,minmax(200px,1fr)) ;
+    column-gap: 20px;
+    row-gap: 20px;
+    height: auto;
+    /* background-color: var(--color-background); */
+    
+    
+}
+/* .career_3{
+    display: grid;
+    grid-template-columns:repeat(3,minmax(200px,1fr)) ;
+    margin-top: 20px;
+}
+.career_4{
+    margin-top: 20px;
+} */
+.career_card_container{
+    height: 190px;
+    background-color: var(--color-white);
+    border: 12px;
+    color: var(--color-background);
+    /* padding: 28px; */
+    padding-left: 18px;
+    padding-right: 18px;
+    height: auto;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-style: none;
+    border-color: var(--color-outline);
+    
+}
+.career_container a{
+    text-decoration: none;
+}
+.bi-airplane-engines-fill{
+    font-size: 100px;
+    color: navy;
+    
+       
+}
+
+.bi-cpu-fill{
+    font-size: 100px;
+    color: forestgreen;
+}
+.bi-tools{
+    font-size: 100px;
+    color: darkgreen;
+}
+.bi-radar{
+    font-size: 100px;
+    color: white;
+}
+.bi-router-fill{
+    font-size: 100px;
+    color: var(--color-text);
+   
+}
+.bi-person-standing-dress{
+    font-size: 100px;
+    color: var(--color-yellow);
+}
+.bi-clipboard-check-fill{
+    font-size: 100px;
+}
+ 
+.career_img{
+    height: 300px;
+    width: 100%;
+}
+.career_card{
+    /* margin-top: 10%; */
+    background-color: var(--color-background);
+    color: var(--color-black);
+    /* padding-left: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    /* border-style: groove;
+    border-color: var(--color-outline); */
+    border-radius: 10px;  
+}
+.career_card:hover{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: 0 8px 16px rgba(0, 0, 10);
+}
+.Explore{
+    font-size: 42px;
+    font-weight: bolder;
+    padding-top: 20%;
+}
+.paragraph{
+    font-size: 25px;
+    /* font-weight: bolder; */
+    font-style: italic;
+}
+.aviation_careers{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom:3%;
+    padding-top: 2%;
+    color: var(--color-black);
+
+}
+:root{
+    --color-background:#f0f0f0;
+    --color-blue:#016ccf;
+    --color-white:#fff;
+    --color-black:#212121;
+    --color-text:#333;
+    --color-yellow:#F5A80A;
+    --color-outline:#5F63688C;
+}
+.career_container{
+    color: var(--color-background);
+}
+/* p1{
+    /* padding-left: 25px; */
+    /* font-size: 18px;
+    font-weight: bolder; 
+    gap: 14px; */
+/* } */ 
+.paragraph2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 19px;
+    
+}
+
