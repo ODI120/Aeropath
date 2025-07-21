@@ -65,8 +65,8 @@ img{
     box-sizing: border-box;
 }
 :root{
-    --color-background:#f2f8fc;
-    --color-blue:#008DD2;
+    --color-background:#f0f0f0;
+    --color-blue:#016ccf;
     --color-white:#fff;
     --color-black:#212121;
     --color-text:#333;
