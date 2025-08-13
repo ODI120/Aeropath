@@ -941,7 +941,10 @@ marquee{
     height: 100%;
 }
 .what-top {
-    flex: 1; 
+    flex-grow: 1; 
+}
+.what-btm{
+    margin-top: auto;
 }
 
 .what-txt-groups img{
