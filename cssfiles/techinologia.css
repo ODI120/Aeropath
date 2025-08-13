@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+    background-color: #fff;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+.hero {
+    background-image: url("../image/cover-1.webp");
+    background-size: cover;
+    height: 67vh;
+    position: relative;
+}
+
+.overlay {
+    /* background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2; */
+}
+
+.hero-text-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text-container > h1 {
+    color: #333;
+}
+
+.hero-text-container > p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .content-container {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #fad503;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+    color: #667;
+}
+
+.conclusion {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    grid-column: 1 / -1; /* Ensure conclusion spans full width */
+}
