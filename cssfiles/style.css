@@ -258,8 +258,6 @@ nav ul{
     font-weight: 274;
     font-style: Light;
     font-size: 64px;
-    leading-trim: NONE;
-    line-height: 113.99999999999999%;
     letter-spacing: 0%;
 }
 .txt-T p{
@@ -515,13 +513,490 @@ marquee{
 
 /* ============ADVERT SECTION============= */
 .ads{
-    width: 1258;
-    height: 350;
-    top: 1467px;
-    left: 91px;
-    angle: 0 deg;
-    opacity: 1;
+    background: url(../image/airpeace.png);
+    background-size: cover;
+    height: 60vh;
+    background-position: top;
     border-radius: 8px;
-    background: rgba(178, 190, 181, 0.34);
+    
+}
+.ads .ad-txt{
+    background: rgba(242, 248, 252, 1);
+    width: 150px;
+    height: 39px;
+    border-bottom-right-radius: 16px;
+    padding: 10px;
+}
+.ads p{
+    width: 113px;
+    height: 21px;
 }
 
+/* ==========POTENTIAL========== */
+.pt-txt {
+    max-width: 729px;      
+    margin: 0 auto;   
+    margin-top: 15vh; 
+    font-size: 48px;
+    line-height: 132%;
+    text-align: center;    
+}
+
+
+/* ================MENTORSHIP================== */
+
+
+.mentor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Left section */
+.mentor-txt {
+    flex: 1;
+    width: 616px;
+    height: 488px;
+    background: rgba(234, 234, 234, 1);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.mtxt h2 {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+
+.mtxt-p {
+    background: rgba(242, 248, 252, 1);
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 13vh;
+}
+
+.mtxt-p p {
+    margin-bottom: 16px;
+    line-height: 28px;
+}
+
+/* Right cards */
+.mentor-card {
+    display: flex;
+    gap: 24px;
+}
+
+.men-1, .men-2 {
+    width: 267px;
+    height: 488px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.men-1 {
+    background-image: url("../image/Mentor_1.png");
+    background-color: rgba(116, 173, 253, 1);
+}
+
+.men-2 {
+    background-image: url("../image/Mentor_2.jpg");
+}
+
+.men-txt {
+    width: 100%;
+    height: 144px;
+    padding: 16px 12px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-bottom: 16px;
+    background-color: rgba(178, 190, 181, 0.34);
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    background: rgba(0, 0, 0, 0.04);
+    /* backdrop-filter: blur(79.69999694824219px) */
+}
+
+/* ===============QUIZ SECTION============== */
+.quizes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+.qui-imgs{
+    width: 557px;
+    height: 575px;
+    top: 2783px;
+    left: 92px;
+    border-radius: 16px;
+}
+.adm{
+    width: 278;
+    height: 323;
+    top: 2783px;
+    left: 371px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 19px;
+
+}
+.park{
+    width: 256;
+    height: 453;
+    top: 2845px;
+    left: 92px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 19px;
+}
+.cloudss{
+    width: 256;
+    height: 453;
+    top: 2845px;
+    left: 92px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 19px;
+}
+.qui-txt{
+    width: 616px;
+    height: 526px;
+    top: 2808px;
+    left: 732px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 40px;
+    background: rgba(234, 234, 234, 1);
+}
+.quiT{
+    width: 85vh;
+    height: 189px;
+    font-weight: 510;
+    line-height: 132%;
+    letter-spacing: 0%;
+}
+.qui1-tx{
+    width: 568px;
+    height: 249px;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 32px;
+    background: rgba(242, 248, 252, 1);
+}
+.qui1-tx p{
+    width: 536px;
+    height: 140px;
+
+}
+
+/* ==============CAREER SECTION============= */
+.career{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+}
+/* Left section */
+.career-txt {
+    flex: 1;
+    width: 616px;
+    height: 488px;
+    background: rgba(234, 234, 234, 1);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.ctxt h2 {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+
+.ctxt-p {
+    background: rgba(242, 248, 252, 1);
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+.ctxt-p p {
+    margin-bottom: 16px;
+    line-height: 28px;
+}
+
+/* Right cards */
+.career-card {
+    display: flex;
+    gap: 24px;
+}
+
+.car-1, .car-2 {
+    width: 267px;
+    height: 488px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.car-1 {
+    background-color: rgba(116, 173, 253, 1);
+    background: url(../image/parade.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.car-2 {
+    background-color: rgb(214, 253, 116);
+    background: url(../image/view.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+/* RECOMMENDATION SECTION  */
+.recom{
+    /* width: 1258px; */
+    height: 90%;
+    top: 4082px;
+    left: 91px;
+    border-radius: 16px;
+    padding: 32px;
+    gap: 19px;
+    background: rgba(62, 99, 219, 0.16);
+}
+.htxt h1{
+    line-height: 132%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.htxt p{
+    text-align: center;
+}
+
+.fly{
+    /* width: 1194px; */
+    height: 63vh;
+    border-radius: 16px;
+    background: url(../image/BI-RECOM.png);
+    background-position: right;
+    background-size: cover;
+}
+.recom-NCAT{
+    display: flex;
+    gap: 15px;
+    padding-top: 35px;
+    padding-left: 32px; 
+}
+.recom-fly-img{
+    gap: 10px;
+    border-radius: 10px;
+    /* padding: 15px; */
+    display: flex;
+}
+.recom-fly-img img{
+    width: 61.59468460083008px;
+    height: 60px;
+   
+}
+.recom-fly-txt p{
+    width: 264px;
+    height: 32px;
+}
+.recom-txt{
+    width: 466px;
+    height: 133px;
+    border-radius: 10px;
+    padding: 12px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.23);
+    margin-bottom: 27px;
+    margin-left: 22px;
+    margin-top: 55px;
+}
+.recom-txt p{
+    width: 442px;
+    height: 109px;
+    /* font-family: Beiruti; */
+    line-height: 137%;
+    letter-spacing: 0%;
+}
+.recom-arrow{
+    padding-left: 32px;
+}
+/* =============BOTTOM HEADER SECTION============= */
+.bottom {
+    background: rgba(213, 224, 247, 1);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 40px; 
+}
+
+.btm-txt {
+    max-width: 729px;      
+    margin: 0 auto;   
+    font-size: 48px;
+    line-height: 132%;
+    text-align: center;
+}
+
+/* Cards container */
+.bottom-cards {
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+/* Common card styles */
+.bcard {
+    width: 312px;
+    height: 270px;
+    border-radius: 16px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.bcard img {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Light card */
+.bcard-light {
+    background: rgba(172, 190, 240, 1);
+    color: #000;
+}
+
+/* Dark card */
+.blackcard-dark {
+    background: rgba(33, 33, 33, 1);
+    color: var(--color-white);
+    transform: translateY(-20px);
+    
+}
+
+/* =============SECOND MENTOR SECTION========== */
+.sc-men{
+    max-width: 729px;      
+    margin: 0 auto;  
+    margin-top: 10vh;  
+    font-size: 48px;
+    line-height: 132%;
+    text-align: center;
+}
+
+/* ==========FINAL SECTION============ */
+.final{
+    width: 676px;
+    height: 655px;
+    top: 5808px;
+    left: 382px;
+    border-radius: 24px;
+    background: rgba(51, 51, 51, 1);
+    justify-self: center;
+    padding: 24px;
+}
+.whatsapp{
+    display: flex;
+    gap: 25px;
+}
+.what-img{
+    background: url(../image/wa-img.png);
+    background-size: cover;
+    background-position: right;
+    width: 50%;
+    height: 599px;
+    border-radius: 18px;
+}
+.what-txt-head{
+    color: var(--color-white);
+    
+}
+
+.what-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.what-top {
+    flex-grow: 1; 
+}
+.what-btm{
+    margin-top: auto;
+}
+
+.what-txt-groups img{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.what-txt-groups{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #000;
+    color: var(--color-white);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.what-txt-groups p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.group-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.members {
+    width: 146px;
+    height: 103px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+}
+
+.members h1 {
+    font-size: 38px; 
+    /* font-weight: bold; */
+    margin: 0;
+}
+
+.members p {
+    font-size: 17px;
+    margin: 0;
+    line-height: 1.4;
+}
