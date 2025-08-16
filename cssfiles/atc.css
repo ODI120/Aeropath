@@ -78,7 +78,7 @@ ul{
 } 
 .h2{
     font-size: 25px;
-    background-color: #fff;
+    background-color: rgba(355, 355, 355, 0.5);
     width:370px;  
     backdrop-filter: 80%; 
     margin-top: 180px; 
