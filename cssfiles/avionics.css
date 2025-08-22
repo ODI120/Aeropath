@@ -85,6 +85,7 @@ ul{
     padding: 16px;
     height: 110px;
     border-radius: 5px;
+    background-color: rgba(355, 355, 355, 0.5);
 } 
 .back_text_1{
     font-size: 16px;

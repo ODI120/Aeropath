@@ -195,13 +195,14 @@ ul{
 }
 .h2{
     font-size: 25px;
-    background-color: #fff;
+    /* background-color: #fff; */
     width:370px;  
     backdrop-filter: 80%; 
     margin-top: 180px; 
     padding: 16px;
     height: 110px;
     border-radius: 5px;
+    background-color: rgba(355, 355, 355, 0.5);
 } 
 .back_text_1{
     font-size: 16px;
