@@ -3,115 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Careers in Aviation</title>
-    <link rel="stylesheet" href="../Aeropath/cssfiles/career_in_aviation.css">
+    <link rel="stylesheet" href="cssfiles/style.css">
+    <link rel="stylesheet" href="cssfiles/explore.css">
+    <title>Key Organizations in Aviation - Aeropath</title>
+    <link rel="shortcut icon" href="image/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="cssfiles/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="cssfiles/career_in_aviation.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <div class="hero-image">
-                <div class="overlay"></div>
+    
+<!-- Navigation Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top _hidden">
+        <div class="container nav">
+            <div class="logo" id="">
+                <img src="image/favicon.ico.png" alt="">
+                <a class="navbar-brand" href="index.html" id="logo">Aeropath</a>
             </div>
-            <div class="hero-text">
-                <h1>Careers in Aviation</h1>
+            <button class="navbar-toggler" id="mobile-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Aviation Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="explore.html">Explore Aviation Industry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mentors.html">Mentorship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support/contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="explore_careers">
+        <div class="explore_careers_main">
+            <div class="explore_careers_heading">
+
+            </div>
+
+            <div class="explore_careers_heading_text">
+                <h2>Careers in Aviation</h2>
                 <p>Aviation offers diverse and rewarding career paths across technical, operational, and management roles.</p>
             </div>
-        </header>
+            
+            <section class="career_roles">
+                <h2>Career Roles</h2>
+                <div class="career_section_1">
+                    <div class="roles_card">
+                        <img src="image/Pilot.jpg" alt="Pilot" class="roles_card_image">
+                        <h3>Pilots</h3>
+                        <p>Fly commercial, cargo, private, or military aircraft.</p>
+                        <p>Requires professional training, certifications, and continuous skill development.</p>
+                    </div>
+                    <div class="roles_card">
+                        <img src="image/aircraft_main.jpeg" alt="AME" class="roles_card_image">
+                        <h3>Aircraft Maintenance Engineers/Technicians (AMEs)</h3>
+                        <p>Inspect, repair, and maintain aircraft to ensure airworthiness.</p>
+                        <p>Key for flight safety and compliance with regulations.</p>
+                    </div>
+                    <div class="roles_card">
+                        <img src="image/ATC.jpeg" alt="ATC" class="roles_card_image">
+                        <h3>Air Traffic Controllers</h3>
+                        <p>Manage the safe and orderly flow of aircraft in the sky and on the ground.</p>
+                        <p>High-pressure role with strict training and licensing.</p>
+                    </div>
+                    <div class="roles_card">
+                        <img src="image/cabin_crew.jpeg" alt="Flight Attendant" class="roles_card_image">
+                        <h3>Flight Attendants</h3>
+                        <p>Ensure passenger safety, comfort, and in-flight service.</p>
+                        <p>Must handle emergencies, medical issues, and customer support.</p>
+                    </div>
+                    <div class="roles_card">
+                        <img src="image/aviation_management.jpeg" alt="Aviation Management" class="roles_card_image">
+                        <h3>Aviation Management & Operations</h3>
+                        <p>Includes roles in airport operations, airline planning, logistics, and customer service.</p>
+                        <p>Combines business skills with aviation knowledge.</p>
+                    </div>
+                    <div class="roles_card">
+                        <img src="image/aerospace_eng.jpeg" alt="Aerospace Engineer" class="roles_card_image">
+                        <h3>Aerospace Engineers</h3>
+                        <p>Design and test aircraft, propulsion systems, and avionics.</p>
+                        <p>Work with manufacturers like Boeing, Airbus, and Bombardier.</p>
+                    </div>
+                </div>
 
-        <section class="section career-roles">
-            <h2>Career Roles</h2>
-            <div class="content-container">
-                <div class="card">
-                    <img src="../Aeropath/image/Pilot.jpg" alt="Pilot" class="card-image">
-                    <h3>Pilots</h3>
-                    <p>Fly commercial, cargo, private, or military aircraft.</p>
-                    <p>Requires professional training, certifications, and continuous skill development.</p>
+            </section>
+
+            <section class="career_section_2">
+                <h2>Workforce Challenges and Skills Gap</h2>
+                <div class="content-container">
+                    <div class="subsection">
+                        <h3>Pilot Shortages</h3>
+                        <p>Many experienced pilots are retiring.</p>
+                        <p>Global demand for air travel is growing faster than new pilots can be trained.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Maintenance Technician Gap</h3>
+                        <p>Fewer young people are entering technical aviation careers.</p>
+                        <p>The industry needs more certified technicians and engineers to maintain modern fleets.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Diversity and Inclusion</h3>
+                        <p>Women and minority groups are underrepresented in technical and leadership positions.</p>
+                        <p>The industry is working to improve inclusivity and broaden talent pipelines.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Post-Pandemic Layoffs & Recovery</h3>
+                        <p>COVID-19 led to job losses and retirements.</p>
+                        <p>As the industry recovers, rehiring and retraining are top priorities.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="../Aeropath/image/aircraft_main.jpeg" alt="AME" class="card-image">
-                    <h3>Aircraft Maintenance Engineers/Technicians (AMEs)</h3>
-                    <p>Inspect, repair, and maintain aircraft to ensure airworthiness.</p>
-                    <p>Key for flight safety and compliance with regulations.</p>
+            </section>
+
+            <section class="career_section_2">
+                <h2>Training and Education Initiatives</h2>
+                <div class="content-container">
+                    <div class="subsection">
+                        <h3>Flight Schools and Aviation Academies</h3>
+                        <p>Institutions like NCAT (Nigeria College of Aviation Technology) train pilots, engineers, and air traffic controllers.</p>
+                        <p>Programs are regulated by national aviation authorities.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Simulation and Virtual Training</h3>
+                        <p>Flight simulators, VR tools, and online platforms are revolutionizing how pilots and technicians train.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Scholarships and Outreach Programs</h3>
+                        <p>Many airlines and associations offer scholarships, internships, and STEM outreach to attract young talent.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Public-Private Partnerships</h3>
+                        <p>Collaboration between airlines, training institutions, and governments to expand aviation education and meet international standards.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <img src="../Aeropath/image/ATC.jpeg" alt="ATC" class="card-image">
-                    <h3>Air Traffic Controllers</h3>
-                    <p>Manage the safe and orderly flow of aircraft in the sky and on the ground.</p>
-                    <p>High-pressure role with strict training and licensing.</p>
+
+            </section>
+
+            <p class="explore_careers_conclusion">Aviation careers are exciting, diverse, and essential to the global economy. While the 
+                industry offers many opportunities, it must also address workforce shortages and upskill the next generation. 
+                Through modern training, education, and outreach, the aviation workforce is being prepared for the challenges 
+                and opportunities of the future.
+            </p>
+
+
+
+        </div>
+        <a href="explore.html"><div class="career_back_button">Back</div></a>
+
+
+    </section>
+    
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h5>About Us</h5>
+                    <p>The Nigeria College of Aviation Technology (NCAT) is widely recognized as a leading institution for aviation training in Africa and beyond.</p>
                 </div>
-                <div class="card">
-                    <img src="../Aeropath/image/cabin_crew.jpeg" alt="Flight Attendant" class="card-image">
-                    <h3>Flight Attendants</h3>
-                    <p>Ensure passenger safety, comfort, and in-flight service.</p>
-                    <p>Must handle emergencies, medical issues, and customer support.</p>
+                <!-- Quick Links Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Our Location</h5>
+                    <ul class="list-unstyled">
+                        <li><p>Nigeria Collage of Aviation Technology</p></li>
+                        <li><p>Zaria, Kaduna state,
+                            Nigeria</p></li>
+                    </ul>
                 </div>
-                <div class="card">
-                    <img src="../Aeropath/image/aviation_management.jpeg" alt="Aviation Management" class="card-image">
-                    <h3>Aviation Management & Operations</h3>
-                    <p>Includes roles in airport operations, airline planning, logistics, and customer service.</p>
-                    <p>Combines business skills with aviation knowledge.</p>
+                <!-- Contact Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker"></i> Zaria, Nigeria</li>
+                        <li><i class="fa fa-phone"></i> +234 701 509 9833</li>
+                        <li><i class="fa fa-envelope"></i> info@ncat.edu.ng</li>
+                    </ul>
                 </div>
-                <div class="card">
-                    <img src="../Aeropath/image/aerospace_eng.jpeg" alt="Aerospace Engineer" class="card-image">
-                    <h3>Aerospace Engineers</h3>
-                    <p>Design and test aircraft, propulsion systems, and avionics.</p>
-                    <p>Work with manufacturers like Boeing, Airbus, and Bombardier.</p>
+                <!-- Newsletter Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <div class="social-icons mt-3">
+                        <a title="socials" class="social-icon"><i class="fa fa-facebook"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-twitter"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-instagram"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <section class="section">
-            <h2>Workforce Challenges and Skills Gap</h2>
-            <div class="content-container">
-                <div class="subsection">
-                    <h3>Pilot Shortages</h3>
-                    <p>Many experienced pilots are retiring.</p>
-                    <p>Global demand for air travel is growing faster than new pilots can be trained.</p>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; 2024 NCAT. All Rights Reserved.</p>
                 </div>
-                <div class="subsection">
-                    <h3>Maintenance Technician Gap</h3>
-                    <p>Fewer young people are entering technical aviation careers.</p>
-                    <p>The industry needs more certified technicians and engineers to maintain modern fleets.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Diversity and Inclusion</h3>
-                    <p>Women and minority groups are underrepresented in technical and leadership positions.</p>
-                    <p>The industry is working to improve inclusivity and broaden talent pipelines.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Post-Pandemic Layoffs & Recovery</h3>
-                    <p>COVID-19 led to job losses and retirements.</p>
-                    <p>As the industry recovers, rehiring and retraining are top priorities.</p>
+                <div class="col text-center">
+                    <p>Designed by: <a href="">NCAT Entraprenureship HNDII STUDENTS TEAM</a></p>
                 </div>
             </div>
-        </section>
-
-        <section class="section">
-            <h2>Training and Education Initiatives</h2>
-            <div class="content-container">
-                <div class="subsection">
-                    <h3>Flight Schools and Aviation Academies</h3>
-                    <p>Institutions like NCAT (Nigeria College of Aviation Technology) train pilots, engineers, and air traffic controllers.</p>
-                    <p>Programs are regulated by national aviation authorities.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Simulation and Virtual Training</h3>
-                    <p>Flight simulators, VR tools, and online platforms are revolutionizing how pilots and technicians train.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Scholarships and Outreach Programs</h3>
-                    <p>Many airlines and associations offer scholarships, internships, and STEM outreach to attract young talent.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Public-Private Partnerships</h3>
-                    <p>Collaboration between airlines, training institutions, and governments to expand aviation education and meet international standards.</p>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <p class="conclusion">Aviation careers are exciting, diverse, and essential to the global economy. While the industry offers many opportunities, it must also address workforce shortages and upskill the next generation. Through modern training, education, and outreach, the aviation workforce is being prepared for the challenges and opportunities of the future.</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <script src="jsfiles/script.js"></script>
+    <script src="jsfiles/bootstrap.js"></script>
 </body>
+
 </html>
