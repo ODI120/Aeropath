@@ -3,12 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future of Aviation</title>
-    <link rel="stylesheet" href="../Aeropath/cssfiles/future_of_aviation.css">
+    <link rel="stylesheet" href="cssfiles/style.css">
+    <link rel="stylesheet" href="cssfiles/explore.css">
+    <title>Explore Aviation Industry - Aeropath</title>
+    <link rel="shortcut icon" href="image/favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="cssfiles/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="cssfiles/future_of_aviation.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top _hidden">
+        <div class="container nav">
+            <div class="logo" id="">
+                <img src="image/favicon.ico.png" alt="">
+                <a class="navbar-brand" href="index.html" id="logo">Aeropath</a>
+            </div>
+            <button class="navbar-toggler" id="mobile-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Aviation Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="explore.html">Explore Aviation Industry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mentors.html">Mentorship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="support.html">Support/contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="future_container">
+        <div class="future_heading">
             <div class="hero-image">
                 <div class="overlay"></div>
             </div>
@@ -16,108 +59,165 @@
                 <h1>Future of Aviation</h1>
                 <p>The future of aviation is being shaped by powerful innovations in technology, sustainability, and mobility. As the industry looks ahead, key breakthroughs are emerging that could completely redefine the way we fly making air travel cleaner, faster, smarter, and more accessible than ever before.</p>
             </div>
-        </header>
+            
+            <div class="content-container">
+                <section class="section">
+                    <h2>Sustainable Aviation Fuel (SAF) and Electrification</h2>
+                    <p>One of the biggest challenges facing aviation is its environmental impact. Future solutions are focused on reducing greenhouse gas emissions through cleaner energy sources.</p>
+                    <div class="subsection">
+                        <h3>Sustainable Aviation Fuel (SAF)</h3>
+                        <p>SAF is made from renewable sources like plants, waste oils, agricultural residues, and even CO₂ captured from the air.</p>
+                        <p>It can be used in today’s aircraft engines with little or no modification.</p>
+                        <p>SAF can reduce carbon emissions by up to 80% over its lifecycle.</p>
+                        <p>Governments and airlines are increasing investment and setting goals to make SAF widely used by 2030 and beyond.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Electric and Hybrid-Electric Aircraft</h3>
+                        <p>Several companies are developing fully electric or hybrid-electric aircraft for short-distance travel (less than 500 km).</p>
+                        <p>These planes will be quiet, low-emission, and cost-efficient for regional flights.</p>
+                        <p>Examples: Eviation’s Alice, Heart Aerospace ES-30, and Rolls-Royce hybrid propulsion projects.</p>
+                    </div>
+                </section>
 
-        <div class="content-container">
-            <section class="section">
-                <h2>Sustainable Aviation Fuel (SAF) and Electrification</h2>
-                <p>One of the biggest challenges facing aviation is its environmental impact. Future solutions are focused on reducing greenhouse gas emissions through cleaner energy sources.</p>
-                <div class="subsection">
-                    <h3>Sustainable Aviation Fuel (SAF)</h3>
-                    <p>SAF is made from renewable sources like plants, waste oils, agricultural residues, and even CO₂ captured from the air.</p>
-                    <p>It can be used in today’s aircraft engines with little or no modification.</p>
-                    <p>SAF can reduce carbon emissions by up to 80% over its lifecycle.</p>
-                    <p>Governments and airlines are increasing investment and setting goals to make SAF widely used by 2030 and beyond.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Electric and Hybrid-Electric Aircraft</h3>
-                    <p>Several companies are developing fully electric or hybrid-electric aircraft for short-distance travel (less than 500 km).</p>
-                    <p>These planes will be quiet, low-emission, and cost-efficient for regional flights.</p>
-                    <p>Examples: Eviation’s Alice, Heart Aerospace ES-30, and Rolls-Royce hybrid propulsion projects.</p>
-                </div>
-            </section>
+                <section class="section">
+                    <h2>Urban Air Mobility (UAM) and eVTOL Aircraft</h2>
+                    <p>Urban air mobility is a bold vision of city travel taking to the skies powered by electric Vertical Takeoff and Landing (eVTOL) aircraft.</p>
+                    <div class="subsection">
+                        <h3>Key Features</h3>
+                        <p>Compact aircraft that take off and land like helicopters but fly like drones or small planes.</p>
+                        <p>Designed for short, point-to-point trips ideal for avoiding urban traffic.</p>
+                        <p>Uses electric power, making them cleaner and quieter than helicopters.</p>
+                        <p>Applications include air taxis, emergency response, and commuter services.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Who’s Building Them?</h3>
+                        <p>Companies like Joby Aviation, Lilium, Volocopter, and Archer are testing prototypes.</p>
+                        <p>Tech giants like Uber and Airbus are investing in urban flight platforms.</p>
+                        <p>Urban air mobility could become a reality in major cities within the next 5–10 years.</p>
+                    </div>
+                </section>
 
-            <section class="section">
-                <h2>Urban Air Mobility (UAM) and eVTOL Aircraft</h2>
-                <p>Urban air mobility is a bold vision of city travel taking to the skies powered by electric Vertical Takeoff and Landing (eVTOL) aircraft.</p>
-                <div class="subsection">
-                    <h3>Key Features</h3>
-                    <p>Compact aircraft that take off and land like helicopters but fly like drones or small planes.</p>
-                    <p>Designed for short, point-to-point trips ideal for avoiding urban traffic.</p>
-                    <p>Uses electric power, making them cleaner and quieter than helicopters.</p>
-                    <p>Applications include air taxis, emergency response, and commuter services.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Who’s Building Them?</h3>
-                    <p>Companies like Joby Aviation, Lilium, Volocopter, and Archer are testing prototypes.</p>
-                    <p>Tech giants like Uber and Airbus are investing in urban flight platforms.</p>
-                    <p>Urban air mobility could become a reality in major cities within the next 5–10 years.</p>
-                </div>
-            </section>
+                <section class="section">
+                    <h2>Supersonic and Hypersonic Travel</h2>
+                    <p>After the retirement of the Concorde in 2003, supersonic commercial flight vanished — but it may soon return, faster and greener.</p>
+                    <div class="subsection">
+                        <h3>Supersonic Travel (Mach 1–2)</h3>
+                        <p>Boom Supersonic's Overture is a new aircraft in development aiming to cut flight times in half (e.g., New York to London in ~3.5 hours).</p>
+                        <p>These aircraft aim to be net-zero carbon, using SAF and advanced aerodynamics.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Hypersonic Travel (Mach 5 and above)</h3>
+                        <p>Hypersonic aircraft could travel five times the speed of sound, enabling intercontinental flights in under 2 hours.</p>
+                        <p>Still in early development, mainly in defense and experimental programs.</p>
+                        <p>Major players: NASA, DARPA, SpaceX, and Hermeus.</p>
+                        <p>If successful, these technologies will make global travel ultra-fast — possibly within a few decades.</p>
+                    </div>
+                </section>
 
-            <section class="section">
-                <h2>Supersonic and Hypersonic Travel</h2>
-                <p>After the retirement of the Concorde in 2003, supersonic commercial flight vanished — but it may soon return, faster and greener.</p>
-                <div class="subsection">
-                    <h3>Supersonic Travel (Mach 1–2)</h3>
-                    <p>Boom Supersonic's Overture is a new aircraft in development aiming to cut flight times in half (e.g., New York to London in ~3.5 hours).</p>
-                    <p>These aircraft aim to be net-zero carbon, using SAF and advanced aerodynamics.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Hypersonic Travel (Mach 5 and above)</h3>
-                    <p>Hypersonic aircraft could travel five times the speed of sound, enabling intercontinental flights in under 2 hours.</p>
-                    <p>Still in early development, mainly in defense and experimental programs.</p>
-                    <p>Major players: NASA, DARPA, SpaceX, and Hermeus.</p>
-                    <p>If successful, these technologies will make global travel ultra-fast — possibly within a few decades.</p>
-                </div>
-            </section>
+                <section class="section">
+                    <h2>Regulatory and Safety Innovations</h2>
+                    <div class="subsection">
+                        <h3>Next-Gen Air Traffic Management</h3>
+                        <p>AI and satellite-based systems like ADS-B will enhance real-time flight tracking, reducing delays and increasing airspace efficiency.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Regulations for eVTOL and Drones</h3>
+                        <p>Aviation authorities like the FAA, EASA, and ICAO are working on new rules for autonomous aircraft, eVTOLs, and urban air mobility.</p>
+                        <p>Certification, pilot training, and safety frameworks are being developed for these new aircraft types.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Cybersecurity & Digital Safety</h3>
+                        <p>With greater use of digital systems, protecting aircraft from cyber threats is a growing priority.</p>
+                        <p>Airlines and manufacturers are investing in secure software, firewalls, and real-time monitoring systems.</p>
+                    </div>
+                </section>
 
-            <section class="section">
-                <h2>Regulatory and Safety Innovations</h2>
-                <div class="subsection">
-                    <h3>Next-Gen Air Traffic Management</h3>
-                    <p>AI and satellite-based systems like ADS-B will enhance real-time flight tracking, reducing delays and increasing airspace efficiency.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Regulations for eVTOL and Drones</h3>
-                    <p>Aviation authorities like the FAA, EASA, and ICAO are working on new rules for autonomous aircraft, eVTOLs, and urban air mobility.</p>
-                    <p>Certification, pilot training, and safety frameworks are being developed for these new aircraft types.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Cybersecurity & Digital Safety</h3>
-                    <p>With greater use of digital systems, protecting aircraft from cyber threats is a growing priority.</p>
-                    <p>Airlines and manufacturers are investing in secure software, firewalls, and real-time monitoring systems.</p>
-                </div>
-            </section>
+                <section class="section">
+                    <h2>Challenges in the Aviation Industry</h2>
+                    <div class="subsection">
+                        <h3>Safety and Security Concerns</h3>
+                        <p><strong>In-Flight Safety</strong>: Despite being one of the safest modes of transport, aviation must constantly manage risks like technical failures, pilot error, and weather-related incidents.</p>
+                        <p>Airlines and regulators invest heavily in training, modern aircraft technology, and safety procedures.</p>
+                        <p><strong>Airport and Passenger Security</strong>: Airports are frequent targets for security threats, including terrorism, smuggling, and unauthorized access.</p>
+                        <p>Screening processes use tools like X-ray and body scanners, biometric identification, and AI-powered surveillance.</p>
+                        <p><strong>Unmanned Aerial Systems (UAS) / Drones</strong>: Increasing use of drones presents risks to commercial aircraft, especially near airports.</p>
+                    </div>
+                    <div class="subsection">
+                        <h3>Environmental Impact and Emissions</h3>
+                        <p><strong>Greenhouse Gas Emissions</strong>: Aviation contributes around 2–3% of global CO₂ emissions, expected to grow as air travel increases.</p>
+                        <p>Aircraft engines also emit nitrogen oxides (NOₓ) and contrails, affecting the climate beyond CO₂ impact.</p>
+                        <p><strong>Noise Pollution</strong>: Aircraft noise affects communities near airports, leading to health issues and public complaints.</p>
+                        <p><strong>Resistance to Change</strong>: Transitioning to SAFs, electric aircraft, and greener infrastructure requires major investment and faces high costs and technological hurdles.</p>
+                    </div>
+                </section>
 
-            <section class="section">
-                <h2>Challenges in the Aviation Industry</h2>
-                <div class="subsection">
-                    <h3>Safety and Security Concerns</h3>
-                    <p><strong>In-Flight Safety</strong>: Despite being one of the safest modes of transport, aviation must constantly manage risks like technical failures, pilot error, and weather-related incidents.</p>
-                    <p>Airlines and regulators invest heavily in training, modern aircraft technology, and safety procedures.</p>
-                    <p><strong>Airport and Passenger Security</strong>: Airports are frequent targets for security threats, including terrorism, smuggling, and unauthorized access.</p>
-                    <p>Screening processes use tools like X-ray and body scanners, biometric identification, and AI-powered surveillance.</p>
-                    <p><strong>Unmanned Aerial Systems (UAS) / Drones</strong>: Increasing use of drones presents risks to commercial aircraft, especially near airports.</p>
-                </div>
-                <div class="subsection">
-                    <h3>Environmental Impact and Emissions</h3>
-                    <p><strong>Greenhouse Gas Emissions</strong>: Aviation contributes around 2–3% of global CO₂ emissions, expected to grow as air travel increases.</p>
-                    <p>Aircraft engines also emit nitrogen oxides (NOₓ) and contrails, affecting the climate beyond CO₂ impact.</p>
-                    <p><strong>Noise Pollution</strong>: Aircraft noise affects communities near airports, leading to health issues and public complaints.</p>
-                    <p><strong>Resistance to Change</strong>: Transitioning to SAFs, electric aircraft, and greener infrastructure requires major investment and faces high costs and technological hurdles.</p>
-                </div>
-            </section>
+                <section class="section">
+                    <h2>Aviation Career and Workforce Trends</h2>
+                    <p>Aviation is more than just flying planes — it's a global industry powered by a wide range of professionals. As air travel grows and technology evolves, so do the career opportunities and workforce needs.</p>
+                </section>
+            </div>
 
-            <section class="section">
-                <h2>Aviation Career and Workforce Trends</h2>
-                <p>Aviation is more than just flying planes — it's a global industry powered by a wide range of professionals. As air travel grows and technology evolves, so do the career opportunities and workforce needs.</p>
-            </section>
+            <footer>
+                <p class="conclusion">The future of aviation promises to be more sustainable, innovative, and accessible than ever before. From flying cars and electric planes to ultra-fast intercontinental travel and smarter air traffic control, the skies of tomorrow are being reshaped today. As new technologies take flight, the aviation industry is not just preparing for the future — it’s building it.</p>
+            </footer>
         </div>
 
-        <footer>
-            <p class="conclusion">The future of aviation promises to be more sustainable, innovative, and accessible than ever before. From flying cars and electric planes to ultra-fast intercontinental travel and smarter air traffic control, the skies of tomorrow are being reshaped today. As new technologies take flight, the aviation industry is not just preparing for the future — it’s building it.</p>
-        </footer>
-    </div>
+    </section>
+
+ <!-- footer section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h5>About Us</h5>
+                    <p>The Nigeria College of Aviation Technology (NCAT) is widely recognized as a leading institution for aviation training in Africa and beyond.</p>
+                </div>
+                <!-- Quick Links Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Our Location</h5>
+                    <ul class="list-unstyled">
+                        <li><p>Nigeria Collage of Aviation Technology</p></li>
+                        <li><p>Zaria, Kaduna state,
+                            Nigeria</p></li>
+                    </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker"></i> Zaria, Nigeria</li>
+                        <li><i class="fa fa-phone"></i> +234 701 509 9833</li>
+                        <li><i class="fa fa-envelope"></i> info@ncat.edu.ng</li>
+                    </ul>
+                </div>
+                <!-- Newsletter Section -->
+                <div class="col-md-3 col-sm-6">
+                    <h5>Newsletter</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <div class="social-icons mt-3">
+                        <a title="socials" class="social-icon"><i class="fa fa-facebook"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-twitter"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-instagram"></i></a>
+                        <a title="socials" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; 2024 NCAT. All Rights Reserved.</p>
+                </div>
+                <div class="col text-center">
+                    <p>Designed by: <a href="">NCAT Entraprenureship HNDII STUDENTS TEAM</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="jsfiles/script.js"></script>
+    <script src="jsfiles/bootstrap.js"></script>
 </body>
 </html>

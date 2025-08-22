@@ -167,21 +167,22 @@
 .xplor-card .image_3{
     background-image: url(../image/airplane-flying-up-sky-with-beautiful-blue-sky.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     height: 130px;
     padding: 14px;
     border-radius: 6px;
     margin-bottom: 16px;
 }
-.xplor-card .image_4{
-    background-image: url(../image/flying airplane laptop realistic.jpg);
+.xplor-card .image_5{
+    background-image: url(../image/Trends.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 130px;
     padding: 14px;
-    border-radius: 6px;
     margin-bottom: 16px;
+    height: 130px;
+    border-radius: 6px;
+    background-position: bottom;
 }
+
 .xplor-content .top-text {
     /* display: flex; */
     flex-direction: column !important;
@@ -195,6 +196,7 @@
     font-size: 14px;
     font-weight: 600;
 }
+
 .top-text p{
     margin-bottom: 8px;
 }
