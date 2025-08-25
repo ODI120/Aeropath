@@ -1,3 +1,134 @@
+/* General setUp */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.expanded {
+    max-width: 1320px;
+    }
+
+    @media (min-width: 768px) {
+    .expanded {
+        width: 100%;
+        overflow: hidden;
+        max-width: 100%;
+        padding: 0px 7%;
+    }
+}
+blockquote{
+    color: var(--color-yellow);
+}
+section{
+    height: 100vh;
+    margin-top: 5rem ;
+    margin-bottom:5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin-top: 0px;
+    scroll-behavior: smooth;
+    transition-delay: 50ms;
+}
+/* .hidden{
+    filter: blur(5px);
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+.show{
+    filter: blur(0);
+    transform: translateY(0);
+    opacity: 1;
+} */
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    box-sizing: border-box;
+}
+:root{
+    --color-background:#f0f0f0;
+    --color-blue:#016ccf;
+    --color-white:#fff;
+    --color-black:#212121;
+    --color-text:#333;
+    --color-yellow:#F5A80A;
+    --color-outline:#5F63688C;
+}
+body{
+    background-color:var(--color-background) !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* ===========industry structure=============== */
 .explore_section_structure{
     height: auto;
 }
+.industry_heading{
+    background-image: url(../image/Industry\ icon.jpg);
+    height: 67vh;
+    /* background-size: cover; */
+}
+.industry_main{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    height: auto;
+    border-radius: 18px;
+}
+.industry_heading_text{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.industry_content_section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;  
+}
+
+h5{
+    color: var(--color-blue);
+}
+h3{
+    color: var(--color-blue);
+    text-decoration: underline;
+    margin-bottom: 18px;
+}
+.section_section{
+    height: auto;
+}
+.industry_back_button{
+    background-color: var(--color-white);
+    width: 90px;
+    height: 45px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 18px;
+    margin-top: 20px;
+    transition: all 0.3 ease;
+}
+.industry_back_button:hover{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3)
+}
+.explore_section_structure a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+

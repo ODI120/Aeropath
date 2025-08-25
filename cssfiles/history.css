@@ -12,6 +12,7 @@ section{
     margin-bottom:5rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    height: auto;
 }
 img{
     display: block;
@@ -32,7 +33,72 @@ img{
 .explore_section_history{
     height: auto;
 }
+
+/* ===============main work================ */
+.history_main{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    height: auto;
+    border-radius: 18px;
+}
 .history_heading{
+    background-image: url(../image/fantasy-style-scene-with-mountains-landscape.jpg);
+    height: 67vh;
+    background-size: cover;
+    border-radius: 18px;
+    position: relative;
+}
+.history_heading_text{
+    text-align: center;
+    padding-top: 20px;
+}
+.history_content_section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+h2{
+    color: #0066cc;
+}
+.content_conclusion{
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    grid-column: 1 / -1; /* Ensure conclusion spans full width */
+}
+.back_button{
+    background-color: var(--color-white);
+    width: 90px;
+    height: 45px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 18px;
+    margin-top: 20px;
+}
+.back_button:hover{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4)
+
+}
+
+.explore_section_history a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+
+
+
+/* .explore_aviation_card:hover{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+} */
+/* .history_heading{
     position: relative;
     width: 100%;
     height: 500px;
@@ -96,4 +162,4 @@ img{
 }
 .timeline-card:nth-child(even)::before {
     left: -10px;
-}
+} */
